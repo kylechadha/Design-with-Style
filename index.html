@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="Tgen">
 <head>
   <!-- JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular.min.js"></script>
@@ -10,7 +10,7 @@
   <script src="https://cdn.firebase.com/libs/angularfire/0.6.0/angularfire.min.js"></script>
 
   <!-- Fonts -->
-  <link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=The+Girl+Next+Door' rel='stylesheet' type='text/css'>
   <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Lato'>
   <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css">
 
@@ -20,8 +20,35 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
-<body>
-  
-</body>
+<body ng-controller="TgenCtrl">
 
+<div id="outer">
+<div id="middle">
+
+<p class="one">{{tGen}}</p>
+<p class="two">{{tGen}}</p>
+<p class="three">{{tGen}}</p>
+<p class="four">{{tGen}}</p>
+<p class="five">{{tGen}}</p>
+<p class="six">{{tGen}}</p>
+<p class="seven">{{tGen}}</p>
+<p class="eight">{{tGen}}</p>
+<p class="nine">{{tGen}}</p>
+<p class="ten">{{tGen}}</p>
+<p class="eleven">{{tGen}}</p>
+<p class="twelve">{{tGen}}</p>
+<p class="thirteen">{{tGen}}</p>
+<p class="fourteen">{{tGen}}</p>
+<p class="fifteen">{{tGen}}</p>
+<p class="sixteen">{{tGen}}</p>
+
+<div id="inner">
+  <input type="text" id="main" ng-model="tGen"placeholder="what do you want?" onblur="this.value=''">
+</div>
+
+</div>
+</div>
+
+
+</body>
 </html>

@@ -1,0 +1,248 @@
+@font-face {
+font-family: one;
+src: url(../font/one.ttf);
+}
+@font-face {
+font-family: two;
+src: url(../font/two.ttf);
+}
+@font-face {
+font-family: three;
+src: url(../font/three.ttf);
+}
+@font-face {
+font-family: four;
+src: url(../font/four.ttf);
+}
+@font-face {
+font-family: five;
+src: url(../font/five.ttf);
+}
+@font-face {
+font-family: six;
+src: url(../font/six.ttf);
+}
+@font-face {
+font-family: seven;
+src: url(../font/seven.ttf);
+}
+@font-face {
+font-family: eight;
+src: url(../font/eight.ttf);
+}
+@font-face {
+font-family: nine;
+src: url(../font/nine.ttf);
+}
+@font-face {
+font-family: ten;
+src: url(../font/ten.ttf);
+}
+@font-face {
+font-family: eleven;
+src: url(../font/eleven.ttf);
+}
+@font-face {
+font-family: twelve;
+src: url(../font/twelve.ttf);
+}
+@font-face {
+font-family: thirteen;
+src: url(../font/thirteen.ttf);
+}
+@font-face {
+font-family: fourteen;
+src: url(../font/fourteen.ttf);
+}
+@font-face {
+font-family: fifteen;
+src: url(../font/fifteen.ttf);
+}
+@font-face {
+font-family: sixteen;
+src: url(../font/sixteen.ttf);
+}
+
+body, html {
+  height: 100%;
+  margin:0;
+}
+
+#outer {
+  height: 100%;
+  width:100%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+#outer[id] {
+  display: table;
+  position: static;
+}
+
+/* for quirk explorer only*/
+#middle {
+  position: absolute;
+  top: 50%;
+}
+
+#middle[id] {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  position: static;
+}
+
+/* for quirk explorer only */
+#inner {
+  position: relative;
+  top: -50%;
+}
+
+#main {
+  background-color: black;
+  color: white;
+  border: none;
+  height: 50px;
+  width: 300px;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 28px;
+  font-family: 'The Girl Next Door', cursive;
+}
+
+#main:focus {
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.one {
+  position: absolute;
+  top: 100px;
+  left: 900px;
+  font-size: 44px;
+  font-family: 'one';
+}
+
+.two {
+  position: absolute;
+  top: 200px;
+  left: 250px;
+  font-size: 39px;
+  font-family: 'two';
+}
+
+.three {
+  position: absolute;
+  top: 350px;
+  left: 100px;
+  font-size: 54px;
+  font-family: 'three';
+}
+
+.four {
+  position: absolute;
+  top: 50px;
+  left: 200px;
+  font-size: 24px;
+  font-family: 'four';
+}
+
+.five {
+  position: absolute;
+  top: 450px;
+  left: 750px;
+  font-size: 38px;
+  font-family: 'five';
+}
+
+.six {
+  position: absolute;
+  top: 500px;
+  left: 1000px;
+  font-size: 28px;
+  font-family: 'six';
+}
+
+.seven {
+  position: absolute;
+  top: 700px;
+  left: 400px;
+  font-size: 36px;
+  font-family: 'seven';
+}
+
+.eight {
+  position: absolute;
+  top: 800px;
+  left: 650px;
+  font-size: 44px;
+  font-family: 'eight';
+}
+
+.nine {
+  position: absolute;
+  top: 900px;
+  left: 130px;
+  font-size: 36px;
+  font-family: 'nine';
+}
+
+.ten {
+  position: absolute;
+  top: 150px;
+  left: 700px;
+  font-size: 60px;
+  font-family: 'ten';
+}
+
+.eleven {
+  position: absolute;
+  top: 250px;
+  left: 1070px;
+  font-size: 24px;
+  font-family: 'eleven';
+}
+
+.twelve {
+  position: absolute;
+  top: 350px;
+  left: 900px;
+  font-size: 38px;
+  font-family: 'twelve';
+}
+
+.thirteen {
+  position: absolute;
+  top: 450px;
+  left: 300px;
+  font-size: 44px;
+  font-family: 'thirteen';
+}
+
+.fourteen {
+  position: absolute;
+  top: 550px;
+  left: 600px;
+  font-size: 36px;
+  font-family: 'fourteen';
+}
+
+.fifteen {
+  position: absolute;
+  top: 550px;
+  left: 100px;
+  font-size: 38px;
+  font-family: 'fifteen';
+}
+
+.sixteen {
+  position: absolute;
+  top: 0px;
+  left: 600px;
+  font-size: 64px;
+  font-family: 'sixteen';
+}
+
